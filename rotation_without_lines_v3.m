@@ -10,6 +10,7 @@ F3=cat(2,B,F3);
 ReconImag=cat(1,F3,A);
 ZeroMat = ones(size(ReconImag));
 [n3 n4]=size(ReconImag);
+% Github change
 % MaxDim = max([N3 N4]);
 % MaxDim = max([n3*dx n4*dy]);
 % % MaxD = max([dx dy]);
